@@ -19,7 +19,6 @@ public class TestC extends HttpServlet {
      */
     public TestC() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
