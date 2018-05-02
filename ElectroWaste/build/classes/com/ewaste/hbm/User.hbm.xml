@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ewaste.model">
+	<class name="User" table="tbl_user">
+		<id name="id" column="user_id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="name" column="user_name"></property>
+		<property name="email" column="email_id"></property>
+		<property name="password" column="password"></property>
+		<property name="contact" column="mobile_no"></property>
+		<property name="address" column="user_address"></property>
+		<property name="city" column="user_city"></property>
+		<property name="role" column="role"></property>
+		<property name="createdBy" column="created_by"></property>
+	</class>
+</hibernate-mapping>

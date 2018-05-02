@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ewaste.model">
+	<class name="WasteProduct" table="tbl_wasteproduct">
+		<id name="id" column="wp_id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="name" column="wp_name"></property>
+		<property name="type" column="wp_type"></property>
+		<property name="photo" column="wp_photo"></property>
+		<property name="description" column="wp_description"></property>
+		<property name="price" column="wp_expected_price"></property>
+		<property name="status" column="status"></property>
+		
+	</class>
+</hibernate-mapping>

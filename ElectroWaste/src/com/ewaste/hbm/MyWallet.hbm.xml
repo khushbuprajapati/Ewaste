@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ewaste.model">
+	<class name="MyWallet" table="tbl_wallet">
+		<id name="wallet_id" column="wallet_id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="wp_id" column="wp_id"></property>
+		<property name="user_id" column="user_id"></property>
+		<property name="amount" column="amount_price"></property>
+		<property name="date" column="date"></property>
+	</class>
+</hibernate-mapping>

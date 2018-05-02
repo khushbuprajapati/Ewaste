@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ElectroWaste</display-name>
+  <welcome-file-list>
+    <welcome-file>/UserView/jsp/index.jsp</welcome-file>
+    <welcome-file>/UserView/jsp/Registration.jsp</welcome-file>
+    <welcome-file>/AdminView/jsp/Category.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>CustomerRegistrationController</servlet-name>
+    <servlet-class>com.ewaste.controller.CustomerRegistrationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerRegistrationController</servlet-name>
+    <url-pattern>/customer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserMasterController</servlet-name>
+    <servlet-class>com.ewaste.controller.UserMasterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserMasterController</servlet-name>
+    <url-pattern>/userMasterController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpdateUser</servlet-name>
+    <servlet-class>com.ewaste.controller.UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminLoginController</servlet-name>
+    <servlet-class>com.ewaste.controller.AdminLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginController</servlet-name>
+    <url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Category</servlet-name>
+    <servlet-class>com.ewaste.controller.CategoryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Category</servlet-name>
+    <url-pattern>/category</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpdateCategory</servlet-name>
+    <servlet-class>com.ewaste.controller.UpdateCategory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateCategory</servlet-name>
+    <url-pattern>/updateCategory</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>WasteProductController</servlet-name>
+    <servlet-class>com.ewaste.controller.WasteProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WasteProductController</servlet-name>
+    <url-pattern>/wasteProductController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>State</servlet-name>
+    <servlet-class>com.ewaste.controller.StateController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>State</servlet-name>
+    <url-pattern>/state</url-pattern>
+  </servlet-mapping>
+  
+  
+  <error-page>
+    <error-code>404</error-code>
+    <location>/AdminView/jsp/ErrorPage.jsp</location>
+  </error-page>
+  
+  <error-page>
+    <error-code>500</error-code>
+    <location>/AdminView/jsp/ErrorPage.jsp</location>
+  </error-page> 
+
+</web-app>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ewaste.model">
+	<class name="Product" table="tbl_product">
+		<id name="id" column="product_id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="code" column="product_code"></property>
+		<property name="name" column="product_name"></property>
+		<property name="type" column="product_type"></property>
+		<property name="image" column="product_image"></property>
+		<property name="description" column="product_description"></property>
+		<property name="price" column="product_price"></property>
+	</class>
+</hibernate-mapping>

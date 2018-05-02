@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ewaste.model">
+	<class name="City" table="tbl_city">
+		<id name="cityId" column="city_id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="cityName" column="city_name"></property>
+		<property name="stateName" column="state_name"></property>
+		
+
+	</class>
+</hibernate-mapping>
