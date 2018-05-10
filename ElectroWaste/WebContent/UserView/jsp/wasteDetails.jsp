@@ -68,7 +68,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <th>Uploaded Photo</th>
                                             <th>Description</th>
                                             <th>Expected Price</th>
-                                            <th>Edit</th>
+<!--                                        <th>Edit</th> -->
                                             <th>Delete</th>
                                         </tr>
                                     </thead>
@@ -91,7 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                    		<td><%out.print(wp1.getPhoto()); %></td>
                                    		<td><%out.print(wp1.getDescription());%></td>
                                    		<td><%out.print(wp1.getPrice());%></td>
-                                   		<td><a href="<%=request.getContextPath()%>/UpdateWasteProduct?id=<%out.print(wp1.getId());%>">Edit</a></td>
+<%--                                    <td><a href="<%=request.getContextPath()%>/UpdateWasteProduct?id=<%out.print(wp1.getId());%>">Edit</a></td> --%>
                                    		<td><a href="<%=request.getContextPath()%>/WasteProductController?action=deleteWasteProduct&id=<%out.print(wp1.getId());%>">Delete</a></td>
                                    </tr>
                                    <%

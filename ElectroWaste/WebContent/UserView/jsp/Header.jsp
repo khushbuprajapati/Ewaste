@@ -140,6 +140,7 @@ if(null != session.getAttribute("customerInfo")) {
 													<li style="width: 170px;"><a href="<%=request.getContextPath()%>/UserView/jsp/WasteProduct.jsp">Add Waste Product Form</a></li>
 													<li style="width: 175px;"><a href="<%=request.getContextPath()%>/UserView/jsp/wasteDetails.jsp">View Waste Product Details</a></li>
 													<li><a href="<%=request.getContextPath()%>/UserView/jsp/MyWallet.jsp">My Wallet</a></li>
+													<li><a href="<%=request.getContextPath()%>/UserView/jsp/Payment.jsp">Payment</a></li>
 												</ul>
 											</div>
 											<div class="clearfix"></div>
@@ -158,7 +159,9 @@ if(null != session.getAttribute("customerInfo")) {
 													<li>Laptop</li>
 													<li>Monitors</li>
 													<li>Keyboards</li>
-													<li>Mouse</li>
+													<li>Mobile Phone</li>
+													<li>Printer</li>
+													
 												</ul>
 											</div>
 
@@ -170,8 +173,8 @@ if(null != session.getAttribute("customerInfo")) {
 										</div>
 									</ul>
 								</li>
-<!-- 								<li class=" menu__item"><a class="menu__link" -->
-<%-- 									href="<%=request.getContextPath()%>/UserView/jsp/extra.jsp">Electronics</a></li> --%>
+								<li class=" menu__item"><a class="menu__link"
+									href="<%=request.getContextPath()%>/UserView/jsp/How-it-works.jsp">How it works ?</a></li>
 
 
 								<li class=" menu__item"><a class="menu__link"

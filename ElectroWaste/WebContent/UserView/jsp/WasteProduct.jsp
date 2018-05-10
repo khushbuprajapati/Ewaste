@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<input type='file' name="photoUpload" onchange="readURL(this);" style="margin-left: 165px; margin-top: -22px;" /><br/>
 					</div>
 					
-					<label>Expected Price</label>
+					<label>Expected Price *</label>
 					<input type="text" name="price" value="" placeholder="Expected Price" style="margin-left: 55px; width: 55%;" required><br/><br/>
 					<input type="submit" value="Submit" id="submit">
 				</div>

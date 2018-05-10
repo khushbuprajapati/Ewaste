@@ -144,7 +144,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="../images/111.jpg" alt="" class="pro-image-back" class="img-responsive zoom-img">
 										<span class="product-new-top">Problem</span>
 								<div class="item-info-product ">
-									<h4 style="color: orange;">We make a lots of electronic waste.  </h4>
+									<h4 style="color: orange; height: 75px;">We make a lots of electronic waste.  </h4>
 								</div>
 							</div>
 						</div>
@@ -166,7 +166,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="../images/333.jpg" alt="" class="pro-image-back">
 									<span class="product-new-top">Problem</span>
 								<div class="item-info-product ">
-									<h4 style="color: orange;">E-waste is the Toxic Legacy of our Digital Age
+									<h4 style="color: orange; height: 75px;">Electro waste is the Toxic Legacy of our Digital Age
 											Our waste electronics are polluting drinking water and harming eco-systems around the world. 
 											 </h4>
 								</div>
@@ -179,7 +179,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="../images/444.gif" alt="" class="pro-image-back">
 									<span class="product-new-top">Problem</span>
 								<div class="item-info-product ">
-									<h4 style="color: orange;">It's time to fix the problem.</h4>
+									<h4 style="color: orange; height: 75px;">It's time to fix the problem.</h4>
 								</div>
 							</div>
 						</div>

@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             	<tr>
                                 	<th>Waste Product Name</th>
                                     <th>User Name</th>
-                                    <th>Uploaded Image</th>
+                                    <th>Amount</th>
                                     <th>Date</th>
                                 </tr>
                              </thead>

@@ -48,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<br>
 	        <br>
 	        <br>
-	        <h3>Waste Product</h3>
+	        <h3>Waste Product Payment</h3>
 		</div>
 	</div>
 	<!-- //banner -->
@@ -56,29 +56,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Waste Product Form -->
 	<div class="contact">
 		<div class="container" style="margin-top: -40px;">
-			<h3 class="tittle" style="color: orange;">Waste Product Form</h3><br/>
+			<h3 class="tittle" style="color: orange;"> Receive Payment</h3><br/>
 			<form action="<%=request.getContextPath()%>/wasteProductController?action=addWasteProduct" method="post" id="wasteForm">
 				<div class="contact-form2">
-					<label>Waste Product Name *</label>
-					<input type="text" id="wasteName" name="wpName" value="" placeholder="Waste Product Name" style="width:55%;" required ><br/><br/>
+					<label>CVV No. *</label>
+					<input type="text" id="wasteName" name="wpName" value="" placeholder="CVV No." style="width:57%; margin-left: 20px;" required ><br/><br/>
 					
-					<label>Waste Product Type *</label>&nbsp;&nbsp;
-					<select name="wpType" style="width: 55%; height: 38px;" required>
-						<option>Home Appliance</option>
-						<option>Computer equipments</option>
-						<option>other</option>
+					<label>Bank Name *</label>
+					<select name="wpType" style="width: 57%; height: 38px;" required>
+						<option>SBI</option>
+						<option>BANK OF BARODA</option>
+						<option>ICICI</option>
 					</select>
+					<br/><br/>
 					
-					<div><label>Description *</label><br/>
-						<textarea name="description" placeholder="Description..." style="margin-left: 159px;width: 55%; margin-top: 1px;" required></textarea>
-					</div>
+					<label>Account No. *</label>
+					<input type="text" id="wasteName" name="wpName" value="" placeholder="Account No" style="width:57%;" required ><br/><br/>
 					
-					<div><label>Waste Image Upload</label>
-					<input type='file' name="photoUpload" onchange="readURL(this);" style="margin-left: 165px; margin-top: -22px;" /><br/>
-					</div>
+					<label>Branch </label>
+					<input type="text" id="wasteName" name="wpName" value="" placeholder="Branch" style="width:57%;margin-left: 44px;" required ><br/><br/>
 					
-					<label>Expected Price</label>
-					<input type="text" name="price" value="" placeholder="Expected Price" style="margin-left: 55px; width: 55%;" required><br/><br/>
+					
 					<input type="submit" value="Submit" id="submit">
 				</div>
 			</form>

@@ -83,8 +83,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					   color: #55555;
 					    margin-top: 60px;
 					    margin-left: -312px;" >Offering for our customers.</h2>
-			<p style="margin-top: 9px; margin-left: -314px;">We have ability to collect, recycle and manage <br/>
-														electronic waste in effective and environment friendly way.</p>
+			<p style="margin-top: 9px; margin-left: -314px;">We have ability to collect and manage electronic  <br/>
+														waste in effective and environment friendly way.</p>
 		</div>
 				
 				
